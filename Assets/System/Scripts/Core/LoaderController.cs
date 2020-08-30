@@ -6,6 +6,6 @@ public class LoaderController : MonoBehaviour
 {
     private void Start()
     {
-        Game.LoadScene("MainMenu");
+        Game.LoadScene("MainMenu", .5f);
     }
 }

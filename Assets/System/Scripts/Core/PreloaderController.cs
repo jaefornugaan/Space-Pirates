@@ -6,6 +6,6 @@ public class PreloaderController : MonoBehaviour
 {
     private void Start()
     {
-        Game.LoadScene("loader");
+        Game.LoadScene("loader", .5f);
     }
 }

@@ -7,5 +7,11 @@ public class MainMenuController : MonoBehaviour
     private void Start()
     {
         Game.controller.state = GameState.InMenu;
+        Game.FadeOutScreen();
+    }
+
+    public void LoadDebuggRoom()
+    {
+        Game.LoadScene("DebuggRoom");
     }
 }
